@@ -20,9 +20,9 @@ Automatically generate skeleton loaders based on your JSX structure — no confi
 ## 🚀 Installation
 
 ```bash
-npm install react-skeletonize
+npm install react-skeletonizer
 # or
-yarn add react-skeletonize
+yarn add react-skeletonizer
 ```
 
 
@@ -33,15 +33,15 @@ yarn add react-skeletonize
 ### Wrap your components
 
 ```jsx
-import { Skeletonize } from "react-skeletonize"
+import { Skeletonizer } from "react-skeletonizer"
 
 const App = () => (
-  <Skeletonize loading={true}>
+  <Skeletonizer loading={true}>
     <div>
       <h1>Hello, world!</h1>
       <p>This is a paragraph.</p>
       <button>Click me!</button>
     </div>
-  </Skeletonize>
+  </Skeletonizer>
 )
 ```

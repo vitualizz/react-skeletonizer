@@ -1,1 +1,1 @@
-export { Skeletonize } from "./components/Skeletonize"
+export { Skeletonizer } from "./components/Skeletonizer"
